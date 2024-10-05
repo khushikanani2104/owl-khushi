@@ -1,0 +1,527 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; */
+
+.home {
+    background-color: rgb(19, 229, 229);
+    width: 1920px;
+    height: 380px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    background-color: rgb(19, 229, 229);
+    color: rgb(19, 229, 229);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+    margin-left: 50px;
+    font-style: oblique;
+}
+
+ul,
+li {
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    margin-left: 1250px;
+    margin-top: -50px;
+}
+
+.h2 {
+    margin-left: 150px;
+}
+
+.content {
+    color: aliceblue;
+    margin-top: 60px;
+    margin-left: 200px;
+    font-style: italic;
+}
+
+.download {
+    height: 45px;
+    width: 160px;
+    background-color: aliceblue;
+    border-radius: 2px;
+}
+
+h5 {
+    color: rgb(19, 229, 229);
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.github {
+    height: 42px;
+    width: 158px;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-left: 170px;
+    margin-top: -45px;
+}
+
+h6 {
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    padding-top: -500px;
+}
+
+.himg {
+    margin-left: 1150px;
+    margin-top: -290px;
+}
+
+
+/* .testing
+{
+    border: 2px solid white;
+    height: 50px;
+    width: fit-content;
+    padding: 10px;
+} */
+
+.github:hover {
+    background-color: #ff3f4d;
+    cursor: po;
+}
+
+.download:hover {
+    background-color: #ff3f4d;
+    cursor: po;
+    width: fit-content;
+    height: fit-content;
+}
+
+.swipe {
+    height: 145px;
+    width: 250px;
+    background-color: #ff3f4d;
+    margin-left: 430px;
+}
+
+.swipeh2 {
+    margin-left: 95px;
+}
+
+.swipe1 {
+    height: 145px;
+    width: 250px;
+    background-color: #ff3f4d;
+    margin-left: 730px;
+    margin-top: -163px;
+}
+
+.swipe1h2 {
+    margin-left: 95px;
+}
+
+.swipe2 {
+    height: 145px;
+    width: 250px;
+    background-color: #ff3f4d;
+    margin-left: 1030px;
+    margin-top: -164px;
+}
+
+.swipe2h2 {
+    margin-left: 75px;
+}
+
+img {
+    margin: 30px;
+}
+
+font {
+    font-size: 30px;
+}
+
+.lastline {
+    font-size: 30px;
+    color: #1CCACD;
+    text-align: center;
+}
+
+.soon {
+    font-size: 18px;
+    text-align: center;
+}
+
+.bird {
+    display: inline;
+    font-size: 20px;
+    color: #1CCACD;
+    width: 1920px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 920px;
+    position: relative;
+}
+
+
+/* demos */
+
+.subhead {
+    height: 100px;
+    width: 1920px;
+    background-color: #f4f4f4;
+}
+
+.demos {
+    padding-top: 30px;
+}
+
+.box1 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.boxes {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.box2 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 350px;
+    margin-top: -124px;
+}
+
+.box3 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 690px;
+    margin-top: -124px;
+}
+
+.box4 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 1030px;
+    margin-top: -124px;
+}
+
+.box5 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.box6 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 350px;
+    margin-top: -124px;
+}
+
+.box7 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 690px;
+    margin-top: -124px;
+}
+
+.box8 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 1030px;
+    margin-top: -124px;
+}
+
+.box9 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.box10 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.box11 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 350px;
+    margin-top: -124px;
+}
+
+.box12 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 690px;
+    margin-top: -124px;
+}
+
+.box13 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-left: 1030px;
+    margin-top: -124px;
+}
+
+.box14 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.box15 {
+    height: 125px;
+    width: 280px;
+    background-color: rgb(231, 232, 234);
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.box1:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box2:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box3:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box4:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box5:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box6:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box7:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box8:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box9:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box10:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box11:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box12:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box13:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box14:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.box15:hover {
+    background-color: #1CCACD;
+    cursor: pointer;
+    color: white;
+}
+
+.ftbox {
+    height: 90px;
+    width: 1920px;
+    background-color: rgb(244, 244, 244);
+}
+
+
+/* docs */
+
+.docsmaindiv {
+    display: flex;
+}
+
+.siderleft h4 {
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.siderleft ul li {
+    padding: 10px;
+}
+
+.siderleft ul li:hover {
+    background-color: #f7f7f7;
+    color: #222222;
+}
+
+.siderleft {
+    margin-left: 250px;
+    text-align: right;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.siderleft ul li {
+    color: #8A9191;
+    /* list-style-type: none; */
+    padding: 13px;
+    font-size: 19px;
+}
+
+.siderright {
+    margin-top: 30px;
+    margin-left: 76px;
+    width: 50%;
+}
+
+.siderright h1 {
+    font-weight: 400;
+    font-size: 38px;
+}
+
+blockquote {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 1.25em;
+    padding: 0.25rem 1.25rem;
+    border-left: 7px solid #1ccacd;
+}
+
+.siderright h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.siderright ul {
+    list-style-type: disc;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.siderright ul li {
+    padding: 3px;
+}
+
+.siderright p {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 3px;
+    color: #555555;
+}
+
+.container {
+    background-color: #f8f8f8;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.container pre {
+    font-family: "Courier Prime", monospace;
+    margin-left: -10%;
+    margin-top: 20px;
+}
+
+.scroll {
+    overflow-x: scroll;
+    margin-top: 70px;
+}
+
+.siderright h4 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 400;
+}
